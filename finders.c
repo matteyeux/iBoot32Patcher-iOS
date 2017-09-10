@@ -38,7 +38,7 @@ void* find_bl_verify_shsh_5_6_7(struct iboot_img* iboot_in) {
 	printf("%s: Entering...\n", __FUNCTION__);
 
 	/* Find the MOVW Rx, #'RT' instruction... */
-	void* movw = find_next_MOVW_insn_with_value(iboot_in->buf, iboot_in->len, (uint16_t)"RT");
+	void* movw = find_next_MOVW_insn_with_value(iboot_in->buf, iboot_in->len, 'RT');
 	if(!movw) {
 		printf("%s: Unable to find MOVW instruction!\n", __FUNCTION__);
 		return 0;
