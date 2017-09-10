@@ -1,0 +1,10 @@
+Package: com.matteyeux.iboot32patcher
+Name: iBoot32Patcher
+Depends: 
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A Universal 32-bit iBoot patcher for iPhone OS 2.0 --> iOS 10
+Maintainer: matteyeux <mathieu.hautebas@gmail.com>
+Author: iH8sn0w
+Section: System
+Tag: role::hacker
